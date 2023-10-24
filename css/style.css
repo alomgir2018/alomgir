@@ -1,0 +1,163 @@
+/* Global Class */
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+p{
+   font size: 15px; 
+   line: hieght 17px;
+   font-weight: 300;
+}
+section{
+padding: 75px 0px;
+text-align: center;
+}
+.heading{
+ font-size: 35px;
+ line-height: 35px;
+}
+.sub-heading{
+ font-size: 22px;
+ text-transform: uppercase;
+}
+.underline{
+border-top: 5px solid rgba(0, 0, 0, 0.353);
+width: 7%;
+margin: 10px auto;
+}
+.btn{
+width: 200px;
+padding: 10px;
+background-color: tomato;
+color: white;
+font-size: 15px;
+box-shadow: 0px 0px 10px tomato;
+}
+.writing-part{
+margin-bottom: 50px;
+}
+.box-part{
+
+}
+.box{
+padding: 20px;
+}
+/* layout classes */
+.container{
+width: 1140px;
+margin: auto;
+
+}
+.row{
+    width: 100%;
+    float: left;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.des{
+    font-size: 10px;
+    color: #30BAE7;
+}
+
+/* header part  */
+#header{
+    background-color: #87509C;
+}
+nav{
+    padding: 10px 0px;
+}
+ul{
+text-align: end;
+padding: 10px 0px;
+}
+ul li{
+   list-style: none;
+   display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 0px 10px;
+}
+.header-content{
+padding: 100px;
+text-align: center;
+}
+.header-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;  
+}
+#header .btn{
+    margin: 50px;
+}
+/* service section */
+#service{
+    background-color: #17C2A4;
+    color: white;
+}
+#service .box img{
+    height: 150px;
+}
+#service .btn{
+    background-color: crimson;
+    color: green;
+    box-shadow: 0px 0px 4 px green;
+}
+/* team section */
+#team{
+ background-color: #E7F1F8;
+ color: #5A5E6F;
+}
+
+/* skill section */
+#skill{
+    color: #5A5E6F;  
+}
+/* protfolio section  */
+#protfolio{
+    background-color: #FFDD99;
+    color: #393939;
+}
+#protfolio .btn{
+width: 70px;
+padding: 10px;
+background-color: #EBC985;
+color: white;
+font-size: 15px;
+box-shadow: 0px 0px 10px #EBC985;
+}
+
+/* about section  */
+#about{
+    background-color: #D74680;
+    color: white;
+}
+#about .des{
+        font-size: 10px;
+        color: #FFDD99;
+}
+/* touch section  */
+#touch{
+    background-color: #3C5499;
+    color: white;
+}
